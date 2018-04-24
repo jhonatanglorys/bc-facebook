@@ -1,5 +1,5 @@
-import createDivElement from './components/navigation.js';
+import header from './components/header.js';
 
-const  divCreated = createDivElement('clase','texto'); 
+const entrySelector  = document.querySelector('.container');
 
-console.log(divCreated);
+entrySelector.innerHTML = header;
